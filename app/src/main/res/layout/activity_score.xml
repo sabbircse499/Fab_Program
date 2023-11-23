@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="46dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/imgBack"
+        >
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lott"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="4dp"
+            android:scaleType="centerCrop"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/quiz2"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scores"
+            android:textColor="@color/colorBase"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tvSubjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject Name"
+            android:textColor="@color/colorBase"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            />
+
+        <TextView
+            android:id="@+id/txtscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="100"
+            android:textColor="@color/colorAccent"
+            android:textSize="140sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBase"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

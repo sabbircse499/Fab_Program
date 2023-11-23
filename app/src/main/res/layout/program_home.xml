@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Program_Home"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp"
+    >
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+     <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FBC02D"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+    <TextView
+        android:id="@+id/describtion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nothing"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#1976D2"
+
+        android:paddingLeft="10dp"
+        />
+    </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/l_next"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+       android:layout_marginTop="20dp"
+       app:cardBackgroundColor="#0288D1"
+       app:cardCornerRadius="25dp"
+       android:padding="20dp"
+
+        >
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+           <ImageView
+               android:id="@+id/l_img"
+               android:layout_width="50dp"
+               android:layout_height="80dp"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentLeft="true"
+               android:src="@drawable/python"
+               android:layout_marginLeft="5dp"
+
+               />
+
+           <TextView
+               android:id="@+id/l_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@+id/l_img"
+               android:text="Nothing"
+               android:textSize="30dp"
+               android:layout_marginLeft="10dp"
+               />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Basic to Advanced"
+               android:layout_below="@id/l_text"
+               android:layout_toRightOf="@+id/l_img"
+               android:layout_marginLeft="10dp"
+
+               />
+           <ImageView
+
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/baseline_swipe_right_24"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_marginRight="20dp"
+
+               />
+
+
+       </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:id="@+id/layBottomBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_BANNER_UNIT_ID"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            >
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

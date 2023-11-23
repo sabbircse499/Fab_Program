@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basic_To_Advance"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/lan_img"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/python"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/basic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/b_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/baseline_code_24"
+                />
+            <TextView
+                android:id="@+id/b_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic"
+                android:layout_toRightOf="@+id/b_img"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:layout_below="@+id/b_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" It's the first program of all Program\nof all programming\nlanguage\n"
+                android:layout_toRightOf="@+id/b_img"
+                android:textColor="@color/black"
+                />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/baseline_navigate_next_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+
+
+
+        </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Data Type-->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/data_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/d_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_code_24"
+                        />
+                    <TextView
+                        android:id="@+id/d_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Data Type"
+                        android:layout_toRightOf="@+id/d_img"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                    <TextView
+                        android:layout_below="@+id/d_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A set of values and\nis determined to act\non those value\n"
+                        android:layout_toRightOf="@+id/d_img"
+                        android:textColor="@color/black"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_navigate_next_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Conditions-->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/conditon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/c_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_code_24"
+                        />
+                    <TextView
+                        android:id="@+id/c_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conditions"
+                        android:layout_toRightOf="@+id/c_img"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                    <TextView
+                        android:layout_below="@+id/c_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Condition are\nusing for checking \nstates or execute\nparticular work\n"
+                        android:layout_toRightOf="@+id/c_img"
+                        android:textColor="@color/black"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_navigate_next_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!--Loop-->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/loop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/l_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_code_24"
+                        />
+                    <TextView
+                        android:id="@+id/l_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loops"
+                        android:layout_toRightOf="@+id/l_img"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                    <TextView
+                        android:layout_below="@+id/l_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Using for\nemplementing the\nsame work for a\nnumber of time\n"
+                        android:layout_toRightOf="@+id/l_img"
+                        android:textColor="@color/black"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_navigate_next_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!--Function-->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/function"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/f_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_code_24"
+                        />
+                    <TextView
+                        android:id="@+id/f_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Function"
+                        android:layout_toRightOf="@+id/f_img"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                    <TextView
+                        android:layout_below="@+id/f_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A function is a block\nof code that\nperforms a specific task\n"
+                        android:layout_toRightOf="@+id/f_img"
+                        android:textColor="@color/black"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_navigate_next_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!--Array-->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/array"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/a_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_code_24"
+                        />
+                    <TextView
+                        android:id="@+id/a_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Array"
+                        android:layout_toRightOf="@+id/a_img"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                    <TextView
+                        android:layout_below="@+id/a_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="An array is a \nvariable that can\ncan store multiple values\n"
+                        android:layout_toRightOf="@+id/a_img"
+                        android:textColor="@color/black"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_navigate_next_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!--Extras-->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/extras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/e_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_code_24"
+                        />
+                    <TextView
+                        android:id="@+id/e_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Extras"
+                        android:layout_toRightOf="@+id/e_img"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                    <TextView
+                        android:layout_below="@+id/e_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mathematical and\nLogical term\nexercises and\nimplement\n"
+                        android:layout_toRightOf="@+id/e_img"
+                        android:textColor="@color/black"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_navigate_next_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <!--String-->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/string"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/s_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_code_24"
+                        />
+                    <TextView
+                        android:id="@+id/s_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="String"
+                        android:layout_toRightOf="@+id/s_img"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                    <TextView
+                        android:layout_below="@+id/s_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A string is a\nsequence of\ncharacters"
+                        android:layout_toRightOf="@+id/s_img"
+                        android:textColor="@color/black"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_navigate_next_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--OOP-->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/oop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/o_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_code_24"
+                        />
+                    <TextView
+                        android:id="@+id/o_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OOP"
+                        android:layout_toRightOf="@+id/o_img"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                    <TextView
+                        android:layout_below="@+id/o_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Object Oriented\nProgramming\n"
+                        android:layout_toRightOf="@+id/o_img"
+                        android:textColor="@color/black"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/baseline_navigate_next_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

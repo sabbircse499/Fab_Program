@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+
+    <item android:title="Program"
+
+        android:icon="@drawable/baseline_code_24"
+        android:id="@+id/nav_home"
+        />
+
+    <item android:title="Quix"
+        android:icon="@drawable/baseline_quiz_24"
+
+        android:id="@+id/nav_about"
+        />
+
+</menu>

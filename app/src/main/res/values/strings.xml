@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Fab Program</string>
+
+    <string name="play">Play Now</string>
+    <string name="confirm">Submit</string>
+    <string name="scores">Total</string>
+
+
+    <!-- Device ID  setTestDeviceIds (search on logcat for device id) -->
+    <string name="device_id">ABCD</string>
+    <!-- Admob AD ON or OFF -->
+    <string name="show_admob_ad">OFF</string>
+
+
+    <!-- Tst Test test -->
+     <string name="admob_APP_ID">ca-app-pub-7331587282427433~8630232939</string>
+     <string name="admob_INTERSTITIAL_UNIT_ID">ca-app-pub-7331587282427433/7651606455</string>
+     <string name="admob_BANNER_UNIT_ID">ca-app-pub-7331587282427433/5770451094</string>
+
+
+    <!-- Tst Test test -->
+  <!--  <string name="admob_APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_INTERSTITIAL_UNIT_ID">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_BANNER_UNIT_ID">ca-app-pub-3940256099942544/6300978111</string>
+    &lt;!&ndash; -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:background="#FFFFFF"
+    android:id="@+id/dialog_lay_all"
+    >
+
+
+    <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+
+            >
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tribute To Ashraful Ador 🙏"
+                android:textColor="@color/orange_light"
+                android:textSize="20sp"
+                android:textStyle="normal"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#d6d8dd"
+            />
+
+
+
+
+    &lt;!&ndash;
+        <ImageView
+            android:id="@+id/lottieXX"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/tribute_ador"
+            />
+    &ndash;&gt;
+
+
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আশরাফুল ইসলাম আদর (Student ID: 47621) আর আমাদের মাঝে নেই। সড়ক দুর্ঘটনায় মারা গেছে। আল্লাহ যেনো তাঁকে জান্নাত নসীব করেন।"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:textColor="@color/dark_grey"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            >
+
+
+
+            <TextView
+                android:id="@+id/tvThanks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  আমিন  "
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/iphone_button"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/dark_grey"
+                android:tag="okay"
+
+                />
+
+
+
+        </LinearLayout>-->
+
+</LinearLayout>
